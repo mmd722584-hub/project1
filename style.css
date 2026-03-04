@@ -1,0 +1,491 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+
+}
+/* #navbar div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+} */
+#navbar nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-transform: uppercase;
+    list-style: none;
+
+
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* #navbar  button{
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    gap: 30px;
+} */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(wedimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20PX;
+    color: white;
+
+}
+#navbar nav ul li a:hover{
+    color: #f5a;
+
+}
+.second{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec{
+    width: 30%;
+    height: 50%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-style: sense-serif;
+
+
+}
+.thirdpage{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.latter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lovelatter{
+    width: 400px;
+    height: 550px;
+    background-color: orangered;
+    color: white;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.backimage{
+    width: 400px;
+    height: 550px;
+    background-image: url(story1.jpg);
+    /* padding-top: 40px; */
+    margin-top: 60px;
+}
+h1{
+    letter-spacing: 5px;
+    
+}
+h3{
+    word-spacing: 10px;
+}
+
+
+.forthpage{
+    width: 100%;
+    height: auto;
+    background-color: #ffffffcf;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wed{
+    width: 500px;
+    height: 200px;
+    
+}
+h2{
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+}
+.events{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.box1{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.box1 p i{
+    font-size: 20px;
+    line-height: 50px;
+    
+}
+.box1 p button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(243, 57, 57);
+}
+.box1 p{
+    font-size: 15px;
+    word-spacing: 5px;
+}
+.box2{
+    width: 400px;
+    height: 500px;
+    border: 2px solid red;
+    
+}
+.box3{
+    width: 400px;
+    height: 500px;
+    border: 2px solid red;
+}
+#cards{
+    width: 1400px;
+    height: 200px;
+    background-color: rgb(239, 31, 31);
+    color: white;
+    /* padding: 40px;
+    margin: 50px; */
+    text-align: center;
+
+    box-sizing: border-box;
+    
+    padding-left: 100px;
+    padding-right: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* overflow: hidden; */
+}
+ 
+.cardone{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 30px;
+    
+
+}
+#bk{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.box1{
+    width: 600;
+    height: 600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.box2{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#opposite{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box3 {
+    width: 600;
+    height: 600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.box4{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#card2{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    color: white;
+    line-height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card2 div h2{
+    font-family: serif;
+    font-size: 70px;
+}
+#card2 div button{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+
+}
+#card2 div button:hover{
+    background-color: red;
+    color: blue;
+}
+#attend{
+    width: 100%;
+    height: auto;
+    background-color: white ;
+    /* border: 3px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+}
+#attend .box5{
+    width: 40%;
+    height: 700px;
+    /* border: 4px solid red; */
+    background-image: url(shape2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#btn1 input{
+    width: 400px;
+    height: 20px;
+
+}
+#attend .mess{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+#attend div button{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 20px;
+
+}
+#guest{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+}
+#attend div input{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+
+#pages7{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+}
+#pages7 div{
+    width: 500px;
+    height: 400px;
+
+}
+.parent-section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+#smallbox1{
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+#smallbox1 div img{
+    width: 190px;
+    height: 200px;
+}
+#endpage{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    
+}
+#endpage div p i{
+    width: 500px;
+    height: 50px;
+}
+#endpage div p {
+    line-height: 70px;
+}
+/* ===main section end here ==== */
+
+#footer{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+
+}
+#footer h4{
+    color: white;
+}
+#footer div li{
+    list-style: none;
+    font-size: 15px;
+
+}
+#footer div{
+    width: 400px;
+}
+#footer div li a{
+    text-decoration: none;
+    color: white;
+}
+#footer div h4{
+    font-size: 20px;
+}
+.footer-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+.footer-bottom  li a{
+text-decoration: none;
+color: red;
+
+}
+.footer-bottom li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-bottom li{
+    list-style: none;
+}
+
+.checkbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-right: 20px;
+    
+    
+}
+#navbar nav .checkbtn i{
+    font-size: 40px;
+    line-height: 20px;
+    padding-right: 80px;
+}
+
+#check{
+    display: none;
+}
+#navbar ul li a.active,a:hover{
+    background-color: blanchedalmond;
+}
+
+@media (max-width: 795px){
+    .checkbtn{
+        display: block;
+
+    }
+}
+
+
+
+
